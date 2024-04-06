@@ -172,8 +172,16 @@ export function ReviewBox() {
   )
 }
 
+interface StarIconProps {
+  // Define the types for the props
+  // For example:
+  width?: string; // width is optional and can be a string
+  height?: string; // height is optional and can be a string
+  fill?: string; // fill color is optional and can be a string
+  // Add more props as needed
+}
 
-function StarIcon(props) {
+function StarIcon(props: StarIconProps) {
   return (
     <svg
       {...props}
