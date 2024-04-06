@@ -3,7 +3,6 @@ import { GetStaticProps } from "next";
 import { Hero } from "@/components/Hero";
 import { PostBlock } from "@/components/PostBlock";
 import { getPosts } from "@/lib/service";
-import { ReviewBox } from "@/components/ReviewBox"
 
 export default function HomePage({ posts }: { posts: any }) {
   return (
