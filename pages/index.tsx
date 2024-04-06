@@ -17,12 +17,6 @@ export default function HomePage({ posts }: { posts: any }) {
           })}
         </div>
       </div>
-      <div className="container mx-auto py-8">
-        <h3 className="text-xl">Reviews</h3>
-        <div>
-          {ReviewBox()}
-        </div>
-      </div>
     </>
   );
 }
